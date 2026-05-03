@@ -42,40 +42,26 @@ pip install opencv-python mediapipe tensorflow pyautogui scikit-learn pandas num
 ### 2. Collect gesture samples
 
 ```bash
-python gesture_pipeline.py collect
+python collect_gestures.py
 ```
-
-Hold each gesture in front of your webcam and press the matching key:
-
-| Key | Gesture | Action |
-|-----|---------|--------|
-| `0` | 1 finger up | Move |
-| `1` | 2 fingers up | Left Click |
-| `2` | 3 fingers up | Right Click |
-| `3` | 4 fingers up | Drag |
-| `4` | Open palm facing up | Scroll Up |
-| `5` | Open palm facing down | Scroll Down |
-
-Press `ESC` or `Q` when done.
 
 ### 3. Train the model
 
 ```bash
-python gesture_pipeline.py train
+python train_gesture.py
 ```
 
 ### 4. Run the gesture mouse
 
 ```bash
-python gesture_pipeline.py run
+python gesture_mouse_dl.py
 ```
 
-### Or do everything at once
+### Or run the classical mode (no training needed)
 
 ```bash
-python gesture_pipeline.py all
+python classical_gesture_mouse.py
 ```
-
 ---
 
 ## 📷 Classical Mode (no ML)
