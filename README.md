@@ -128,3 +128,8 @@ Uses HSV skin color segmentation + convexity defects to count fingers — no mod
 ## 📄 License
 
 MIT License — free to use, modify, and distribute.
+---
+
+## 👨‍💻 Developed By
+
+Developed by [Odenksss](https://github.com/Odenksss)
