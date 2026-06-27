@@ -132,4 +132,5 @@ MIT License — free to use, modify, and distribute.
 
 ## 👨‍💻 Developed By
 
-Developed by [Odenksss](https://github.com/Odenksss)
+Developed by [Odenksss](https://github.com/Odenksss) and [ruhaab](https://github.com/ruhaabsehgal)
+
